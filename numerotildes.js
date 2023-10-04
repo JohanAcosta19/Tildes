@@ -5,6 +5,9 @@ function contarVocalesConTilde(palabra) {
       if (vocalesConTilde.includes(palabra[i])) {
         contador++;
       }
+        else{
+            return 0;
+        }
     }
     return contador;
   }
